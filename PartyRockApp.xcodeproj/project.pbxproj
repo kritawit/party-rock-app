@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D8DC47A1E39EBA600EAE3A2 /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D8DC4791E39EBA600EAE3A2 /* still time.ttf */; };
+		1D8DC47E1E39ECB400EAE3A2 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8DC47D1E39ECB400EAE3A2 /* VideoVC.swift */; };
+		1D8DC4821E39EF1800EAE3A2 /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8DC4811E39EF1800EAE3A2 /* PartyCell.swift */; };
+		1D8DC4841E39F0B600EAE3A2 /* PartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8DC4831E39F0B600EAE3A2 /* PartyRock.swift */; };
 		1D9D76361E386FC80013AB5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9D76351E386FC80013AB5A /* AppDelegate.swift */; };
-		1D9D76381E386FC80013AB5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9D76371E386FC80013AB5A /* ViewController.swift */; };
+		1D9D76381E386FC80013AB5A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9D76371E386FC80013AB5A /* MainVC.swift */; };
 		1D9D763B1E386FC80013AB5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9D76391E386FC80013AB5A /* Main.storyboard */; };
 		1D9D763D1E386FC80013AB5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9D763C1E386FC80013AB5A /* Assets.xcassets */; };
 		1D9D76401E386FC80013AB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9D763E1E386FC80013AB5A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D8DC4791E39EBA600EAE3A2 /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "still time.ttf"; sourceTree = "<group>"; };
+		1D8DC47D1E39ECB400EAE3A2 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		1D8DC4811E39EF1800EAE3A2 /* PartyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyCell.swift; sourceTree = "<group>"; };
+		1D8DC4831E39F0B600EAE3A2 /* PartyRock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyRock.swift; sourceTree = "<group>"; };
 		1D9D76321E386FC80013AB5A /* PartyRockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyRockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9D76351E386FC80013AB5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1D9D76371E386FC80013AB5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D9D76371E386FC80013AB5A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		1D9D763A1E386FC80013AB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D9D763C1E386FC80013AB5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D9D763F1E386FC80013AB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +43,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D8DC47B1E39EBAD00EAE3A2 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D8DC4791E39EBA600EAE3A2 /* still time.ttf */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		1D8DC47C1E39EBB500EAE3A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D8DC4811E39EF1800EAE3A2 /* PartyCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		1D9D76291E386FC70013AB5A = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +78,34 @@
 		1D9D76341E386FC80013AB5A /* PartyRockApp */ = {
 			isa = PBXGroup;
 			children = (
+				1D8DC47B1E39EBAD00EAE3A2 /* Files */,
+				1D9D76481E3870700013AB5A /* Model */,
+				1D8DC47C1E39EBB500EAE3A2 /* View */,
+				1D9D76471E38704D0013AB5A /* Controller */,
 				1D9D76351E386FC80013AB5A /* AppDelegate.swift */,
-				1D9D76371E386FC80013AB5A /* ViewController.swift */,
 				1D9D76391E386FC80013AB5A /* Main.storyboard */,
 				1D9D763C1E386FC80013AB5A /* Assets.xcassets */,
 				1D9D763E1E386FC80013AB5A /* LaunchScreen.storyboard */,
 				1D9D76411E386FC80013AB5A /* Info.plist */,
 			);
 			path = PartyRockApp;
+			sourceTree = "<group>";
+		};
+		1D9D76471E38704D0013AB5A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D9D76371E386FC80013AB5A /* MainVC.swift */,
+				1D8DC47D1E39ECB400EAE3A2 /* VideoVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1D9D76481E3870700013AB5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D8DC4831E39F0B600EAE3A2 /* PartyRock.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D9D76401E386FC80013AB5A /* LaunchScreen.storyboard in Resources */,
+				1D8DC47A1E39EBA600EAE3A2 /* still time.ttf in Resources */,
 				1D9D763D1E386FC80013AB5A /* Assets.xcassets in Resources */,
 				1D9D763B1E386FC80013AB5A /* Main.storyboard in Resources */,
 			);
@@ -137,7 +182,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D9D76381E386FC80013AB5A /* ViewController.swift in Sources */,
+				1D8DC47E1E39ECB400EAE3A2 /* VideoVC.swift in Sources */,
+				1D9D76381E386FC80013AB5A /* MainVC.swift in Sources */,
+				1D8DC4841E39F0B600EAE3A2 /* PartyRock.swift in Sources */,
+				1D8DC4821E39EF1800EAE3A2 /* PartyCell.swift in Sources */,
 				1D9D76361E386FC80013AB5A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +350,7 @@
 				1D9D76461E386FC80013AB5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
